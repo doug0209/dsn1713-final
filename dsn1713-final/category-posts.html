@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Local Deals ▸ Category posts</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="css/aos.css">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+<body class="bg-canvas">
+
+  <!-- Header (same as home) -->
+  <header class="border-bottom bg-blur sticky-top">
+    <div class="container py-3 d-flex align-items-center gap-2">
+      <!-- Logo -->
+      <a class="brand d-flex align-items-center text-decoration-none" href="index.html">
+        <img src="image/logo.png" alt="Local Deals logo" class="brand-logo me-2">
+        <span class="fw-bold text-dark">craigslist</span>
+      </a>
+
+      <!-- Search -->
+      <form class="d-flex ms-auto flex-grow-1 mx-3 maxw-720" role="search" onsubmit="return false;">
+        <input class="form-control rounded-end-0" type="search" placeholder="Search what you need…" aria-label="Search">
+        <button class="btn btn-brand rounded-start-0"><i class="bi bi-search"></i></button>
+      </form>
+
+      <!-- Icons -->
+      <nav class="d-none d-md-flex align-items-center gap-2">
+        <a class="btn btn-outline-brand" href="categories.html"><i class="bi bi-grid"></i></a>
+        <a class="btn btn-outline-brand" href="#"><i class="bi bi-person"></i></a>
+        <a class="btn btn-brand" href="#">Post</a>
+      </nav>
+    </div>
+
+    <!-- chips -->
+    <div class="container pb-3">
+      <div class="d-flex flex-wrap gap-2">
+        <a class="chip" href="index.html">All</a>
+        <a class="chip active" href="category-posts.html">For sale</a>
+        <a class="chip" href="category-posts.html">Housing</a>
+        <a class="chip" href="category-posts.html">Jobs</a>
+        <a class="chip" href="category-posts.html">Services</a>
+        <a class="chip" href="category-posts.html">Community</a>
+        <a class="chip" href="category-posts.html">Gigs</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container my-4">
+    <div class="row g-3">
+
+      <!-- Sidebar (same as home) -->
+      <aside class="col-lg-3">
+        <div class="sidebar-sticky">
+          <!-- Categories list -->
+          <div class="card mb-3">
+            <div class="card-header fw-semibold">Categories</div>
+            <ul class="list-group list-group-flush small">
+              <li class="list-group-item"><a href="category-posts.html" class="text-decoration-none">Community</a></li>
+              <li class="list-group-item"><a href="category-posts.html" class="text-decoration-none">Housing</a></li>
+              <li class="list-group-item"><a href="category-posts.html" class="text-decoration-none">Jobs</a></li>
+              <li class="list-group-item"><a href="category-posts.html" class="text-decoration-none">Services</a></li>
+              <li class="list-group-item"><a href="category-posts.html" class="text-decoration-none">For sale</a></li>
+              <li class="list-group-item"><a href="category-posts.html" class="text-decoration-none">Discussion forum</a></li>
+            </ul>
+          </div>
+
+          <!-- Nearby -->
+          <div class="card mb-3">
+            <div class="card-header fw-semibold">Nearby</div>
+            <div class="card-body p-0">
+              <img src="image/map.png" alt="Map of Ottawa–Gatineau" class="img-fluid rounded-bottom">
+            </div>
+          </div>
+
+          <!-- Calendar -->
+          <div class="card">
+            <div class="card-header fw-semibold">Calendar</div>
+            <div class="card-body p-0 text-center">
+              <img src="image/calendar.png" alt="Calendar" class="calendar-img">
+              <div class="text-secondary small py-3">Events & meetups around you</div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- LIST CONTENT -->
+      <section class="col-lg-9">
+        <h1 class="h4 mb-4">[Category] posts</h1>
+
+        <!-- 1. Cat adoption -->
+        <article class="row-card p-3 mb-3">
+          <div class="row-card-media">
+            <img src="image/cat.png" alt="Cat adoption agency">
+          </div>
+          <div class="row-main">
+            <h2 class="h5 mb-1">
+              <a href="#" class="text-decoration-none">Cat adoption agency</a>
+            </h2>
+            <p class="small text-secondary mb-2">
+              Friendly cats looking for a new home. Adoption fee includes vaccines and starter kit.
+            </p>
+            <p class="small text-secondary mb-0">Centretown • Community</p>
+          </div>
+          <div class="text-end small">
+            <div class="text-secondary mb-2">Posted 2h ago</div>
+            <a href="#" class="btn btn-sm btn-brand">View full post</a>
+          </div>
+        </article>
+
+        <!-- 2. Classic camera -->
+        <article class="row-card p-3 mb-3">
+          <div class="row-card-media">
+            <img src="image/camera.png" alt="Classic camera for sale">
+          </div>
+          <div class="row-main">
+            <h2 class="h5 mb-1">
+              <a href="#" class="text-decoration-none">Classic camera for sale</a>
+            </h2>
+            <p class="small text-secondary mb-2">
+              Vintage film camera in great condition, perfect for collectors or photography lovers.
+            </p>
+            <p class="small text-secondary mb-0">$180 • Centretown • For sale</p>
+          </div>
+          <div class="text-end small">
+            <div class="text-secondary mb-2">Posted yesterday</div>
+            <a href="#" class="btn btn-sm btn-brand">View full post</a>
+          </div>
+        </article>
+
+        <!-- 3. Found kitty -->
+        <article class="row-card p-3 mb-3">
+          <div class="row-card-media">
+            <img src="image/icecafe.png" alt="Found kitty in car, comes with free coffee.">
+          </div>
+          <div class="row-main">
+            <h2 class="h5 mb-1">
+              <a href="#" class="text-decoration-none">
+                Found kitty in car, comes with free coffee.
+              </a>
+            </h2>
+            <p class="small text-secondary mb-2">
+              Lost and found notice – small orange cat found in parking lot. Please message if it’s yours.
+            </p>
+            <p class="small text-secondary mb-0">Downtown • Community</p>
+          </div>
+          <div class="text-end small">
+            <div class="text-secondary mb-2">Posted 3 days ago</div>
+            <a href="#" class="btn btn-sm btn-brand">View full post</a>
+          </div>
+        </article>
+
+        <!-- 4. Best coffee shop -->
+        <article class="row-card p-3 mb-3">
+          <div class="row-card-media">
+            <img src="image/cafe.png" alt="Best coffee shop ever!">
+          </div>
+          <div class="row-main">
+            <h2 class="h5 mb-1">
+              <a href="#" class="text-decoration-none">Best coffee shop ever!</a>
+            </h2>
+            <p class="small text-secondary mb-2">
+              Sharing my favourite local café – cozy atmosphere, great latte art and friendly staff.
+            </p>
+            <p class="small text-secondary mb-0">Hintonburg • Community</p>
+          </div>
+          <div class="text-end small">
+            <div class="text-secondary mb-2">Posted 5 days ago</div>
+            <a href="#" class="btn btn-sm btn-brand">View full post</a>
+          </div>
+        </article>
+
+        <!-- 5. Scratch in warranty -->
+        <article class="row-card p-3 mb-3">
+          <div class="row-card-media">
+            <img src="image/skatting.png" alt="Is this scratch within my warranty?">
+          </div>
+          <div class="row-main">
+            <h2 class="h5 mb-1">
+              <a href="#" class="text-decoration-none">
+                Is this scratch within my warranty?
+              </a>
+            </h2>
+            <p class="small text-secondary mb-2">
+              Question about a small scratch on a recent purchase – looking for advice before contacting the store.
+            </p>
+            <p class="small text-secondary mb-0">Online • Discussion forum</p>
+          </div>
+          <div class="text-end small">
+            <div class="text-secondary mb-2">Posted 1 week ago</div>
+            <a href="#" class="btn btn-sm btn-brand">View full post</a>
+          </div>
+        </article>
+
+        <!-- 6. Photographer for hire -->
+        <article class="row-card p-3 mb-3">
+          <div class="row-card-media">
+            <img src="image/guitar.png" alt="Photographer for Hire">
+          </div>
+          <div class="row-main">
+            <h2 class="h5 mb-1">
+              <a href="#" class="text-decoration-none">Photographer for Hire</a>
+            </h2>
+            <p class="small text-secondary mb-2">
+              Event and lifestyle photographer available for weekend bookings in the Ottawa–Gatineau area.
+            </p>
+            <p class="small text-secondary mb-0">Ottawa • Services</p>
+          </div>
+          <div class="text-end small">
+            <div class="text-secondary mb-2">Posted 2 weeks ago</div>
+            <a href="#" class="btn btn-sm btn-brand">View full post</a>
+          </div>
+        </article>
+
+        <!-- pagination (optional) -->
+        <nav class="mt-4" aria-label="Category pages">
+          <ul class="pagination justify-content-end">
+            <li class="page-item disabled"><span class="page-link">Prev</span></li>
+            <li class="page-item"><a class="page-link active" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <img src="image/logo.png" alt="Local Deals logo" class="footer-logo">
+      </div>
+
+      <nav class="footer-links">
+        <a href="#" class="footer-link">Help</a>
+        <a href="#" class="footer-link">Terms</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
