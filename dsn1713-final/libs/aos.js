@@ -1,11 +1,9 @@
-// aos.js
-// Lightweight custom scroll animation helper (AOSLite)
-// Uses data-aos, data-aos-delay, data-aos-duration
+
 
 (function () {
     const defaults = {
-      offset: 0.15, // how much of element must be visible
-      once: true    // animate only once
+      offset: 0.15, 
+      once: true    
     };
   
     function applyTiming(el) {
