@@ -1,0 +1,27 @@
+/* base state for anything with data-aos */
+[data-aos] {
+    opacity: 0;
+    transform: translateY(24px);
+    transition-property: opacity, transform;
+    transition-duration: 600ms;
+    transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+    will-change: opacity, transform;
+  }
+  
+  /* when visible (class added by JS) */
+  [data-aos].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Optional variants – use data-aos="fade-up" | "fade-down" | "zoom-in" */
+  [data-aos="fade-down"] {
+    transform: translateY(-24px);
+  }
+  [data-aos="zoom-in"] {
+    transform: scale(0.9);
+  }
+  [data-aos="zoom-in"].aos-animate {
+    transform: scale(1);
+  }
+  
